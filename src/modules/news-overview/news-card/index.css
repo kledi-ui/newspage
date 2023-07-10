@@ -1,0 +1,13 @@
+.card-image img {
+  width: 100%;
+}
+
+.card {
+  font-family: "Newsreader", serif;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  transition: all 0.5s;
+}

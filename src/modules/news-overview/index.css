@@ -1,0 +1,20 @@
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+  gap: 30px;
+  width: 70%;
+  margin: auto;
+}
+.news-container-header {
+  font-family: "Newsreader", serif;
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .news-list {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
